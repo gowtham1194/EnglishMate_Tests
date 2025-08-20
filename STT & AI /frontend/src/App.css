@@ -1,0 +1,75 @@
+.app {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  margin-top: 50px;
+  padding: 20px;
+}
+
+h1 {
+  color: #333;
+}
+
+.controls {
+  margin: 20px 0;
+}
+
+button {
+  background-color: #007bff;
+  border: none;
+  color: white;
+  font-size: 16px;
+  padding: 12px 20px;
+  margin: 10px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+button:disabled {
+  background-color: #aaa;
+  cursor: not-allowed;
+}
+
+.stop-btn {
+  background-color: #dc3545;
+}
+
+.stop-btn:hover {
+  background-color: #a71d2a;
+}
+
+.loading {
+  color: orange;
+  font-weight: bold;
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+}
+
+/* Card design */
+.card {
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  padding: 20px;
+  max-width: 500px;
+  margin: 20px auto;
+  text-align: left;
+}
+
+.card p {
+  font-size: 18px;
+  color: #444;
+  margin: 10px 0;
+}
+
+.coach {
+  color: green;
+  font-style: italic;
+}
